@@ -1,0 +1,151 @@
+:root {
+    --dusky-yellow: #E5C100; 
+}
+
+body {
+    background-color: var(--dusky-yellow, #97853b); 
+}
+
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--dusky-yellow, #97853b);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+} 
+.image-container {
+
+    width:100%;
+    justify-content: center; 
+    align-items: center; 
+    height: 113vh;
+    background-image: url('../signUp/Sign\ up-pana.png'); 
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1; 
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+.description{
+    letter-spacing: .06em;
+    font-size: 40px;
+    color: rgb(219, 95, 95);
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+}
+input {
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width:100%;
+
+}
+
+input:valid{
+    border-color: green;
+}
+
+
+input:invalid{
+    border-color: red;
+}
+input:focus,
+input:focus-visible {
+    border: 1px solid rgb(38, 38, 152);
+    box-shadow: 0 0 5px rgb(0,0,0,.3);
+    outline: none;
+}
+.form-container {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.inner-container{
+    justify-content: center;
+    margin: 0 auto;
+    padding:30px;
+    width: 50rem;
+
+}
+.left-side, .right-side {
+    padding: 12px 30px;
+}
+.submission{
+    justify-content: center;
+    text-align: center;
+}
+#create-account button{
+    top: 20px; 
+    left: 20px;
+    justify-content: flex-start;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    background-color: #f38774;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    width:25%;
+    margin-left: -32em;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+#errMessage{
+    color:rgb(229, 100, 100);
+    padding: 10px;
+    border:1px red sold;
+    border-radius: 10px;
+    width:40%;
+}
+.submission p{
+    color:black;
+    justify-content: center;
+}
+.check{
+    margin-left: -25em;
+    margin-top: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

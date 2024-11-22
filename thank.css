@@ -1,0 +1,11 @@
+body{
+    background-color: #f38774;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    margin:5em auto;
+    padding:30px 12px;
+    width:50%;
+    box-shadow: 0 0 6px black;
+}
