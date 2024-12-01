@@ -24,7 +24,11 @@ body {
     justify-content: center; 
     align-items: center; 
     height: 113vh;
+<<<<<<< HEAD
     background-image: url('./background.png'); 
+=======
+    background-image: url('/Sign\ up-pana.png'); 
+>>>>>>> 2e705f257aafaebf996010c20515b4b74670ad92
     background-size:cover;
     background-repeat: no-repeat; 
     background-position: center;  
